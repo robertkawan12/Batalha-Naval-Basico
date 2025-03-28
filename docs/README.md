@@ -1,17 +1,6 @@
-# Batalha Naval - Nível Básico
+## Novas Funcionalidades (Nível Avançado)
 
-Implementação do jogo Batalha Naval focando nos conceitos de matrizes e vetores em C.
-
-## Funcionalidades
-
--   Tabuleiro 10x10 implementado com matriz
--   Posicionamento de navios horizontais e verticais
--   Validação de posicionamento
--   Exibição clara do tabuleiro
-
-## Como Executar
-
-```bash
-gcc src/BatalhaNaval.c -o BatalhaNaval
-./BatalhaNaval
-```
+-   Habilidade Cone: Área triangular que afeta células abaixo do ponto central
+-   Habilidade Cruz: Afeta células em forma de cruz a partir do ponto central
+-   Habilidade Octaedro: Área em losango (diamante) centrada no ponto escolhido
+-   Visualização diferenciada das áreas afetadas
